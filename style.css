@@ -1,0 +1,122 @@
+.number_button{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+}
+#clear{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#back{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#subtraction{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#multiplication{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#addition{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#division{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid darkblue;
+    font-size: large;
+    font-family: Galvji;
+
+}
+#equal{
+    color: green;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid red;
+    font-size: large;
+}
+
+
+.container{
+    width: 600px;
+
+    background-color: lightslategray;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.buttons_layout{
+    justify-content: center;
+    height: 400px;
+}
+
+.buttons{
+    padding-left: 150px;
+    margin-right: 80px;
+}
+
+.result_frame{
+    width: 400px;
+    height: 30px;
+    border: solid 2px black;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px;
+    color: darkblue;
+    font-size: 30px;
+    font-family: Galvji;
+}
+
+@media only screen and (max-width: 600px) {
+    #frame {
+        width: 100%;
+        max-width: inherit;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #frame {
+        width: 600px;
+    }
+}
+
